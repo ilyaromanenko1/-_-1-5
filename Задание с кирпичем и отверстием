@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+  int y = 4, z = 5, x1 , y1, z1;
+  printf("Vvedite rasmery parallelepipeda:\t");
+  scanf_s("%d %d %d", &x1, &y1, &z1);
+  if ((x1 < y && y1 < z) || (x1 < z && y1 < y) || (x1 < y && z1 < z) || (x1 < z && z1 < y) || (y1 < y && z1 < z) || (y1 < z && z1 < y)) {
+      printf("Ura! Kirpich vlez");
+  }
+}
