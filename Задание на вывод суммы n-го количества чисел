@@ -8,7 +8,8 @@ int main()
     printf("Vvedite chislo:\t");
     scanf_s("%d", &n);
   }
-  for (i = 0; i < n; i++) {
+  for (i = 0; i < n; i++) 
+  {
     scanf_s("%d", &a);
     b += a;
   }
